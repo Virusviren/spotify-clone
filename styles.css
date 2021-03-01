@@ -1,0 +1,53 @@
+
+body{
+
+    background: rgb(66,66,116);
+    background: linear-gradient(139deg, rgba(66,66,116,1) 0%, rgba(12,12,99,1) 48%, rgba(25,25,30,1) 100%);
+}
+
+.headeer{
+    height: auto;
+    width: (100% - 100px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom:70px;
+}
+a{
+    font-size: 15px;
+    color: grey;
+    text-decoration: none;
+    margin-left: 40px;
+
+
+}
+a:hover{
+    text-decoration: none;
+    color: grey;
+}
+a:focus{
+    
+    color: white;
+    
+    text-decoration: none;
+    border-bottom: 3px solid green;
+    padding-bottom: 2px;
+       
+}
+.card-deck{
+    margin-top: 10px;
+}
+
+#titleOfCard{
+    text-align: center;
+    color: white;
+}
+.classfiche-cards{
+    width:700px;
+}
+.genreTitles2{
+    margin: auto;
+    font-weight: bold;
+    color:white;
+    text-decoration:none;
+}
