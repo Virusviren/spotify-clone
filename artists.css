@@ -1,0 +1,20 @@
+body {
+  background: black;
+}
+.card-body {
+  background-color: transparent;
+}
+
+.card-body h5 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.genreTitles {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+.genreTitles:hover {
+  color: white;
+}
