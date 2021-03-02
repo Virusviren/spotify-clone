@@ -1,8 +1,7 @@
 
 body{
-
-    background: rgb(66,66,116);
-    background: linear-gradient(139deg, rgba(66,66,116,1) 0%, rgba(12,12,99,1) 48%, rgba(25,25,30,1) 100%);
+    height: 100vh;
+    background: linear-gradient(303deg, #090e3d, #34529e);
 }
 
 .headeer{
@@ -13,13 +12,11 @@ body{
     justify-content: center;
     margin-bottom:70px;
 }
-a{
+div.header-options  a{
     font-size: 15px;
-    color: grey;
+    color:grey;
     text-decoration: none;
     margin-left: 40px;
-
-
 }
 a:hover{
     text-decoration: none;
@@ -33,7 +30,21 @@ a:focus{
     text-decoration: none;
     border-bottom: 3px solid green;
     padding-bottom: 2px;
-       
+    
+}
+.card-body{
+    overflow: hidden;
+}
+.card{
+    box-shadow: -100px -100px 0px 0px rgba(255, 255, 255, 0);;
+}
+.card:hover {
+    box-shadow: 0px 0px 35px 11px rgba(0, 0, 0, 0.28);
+}
+.card:hover .play-circle{
+    display: flex;
+    
+    animation: myMove 0.7s ease-in-out ;
 }
 .card-deck{
     margin-top: 10px;
@@ -52,6 +63,39 @@ a:focus{
     color:white;
     text-decoration:none;
 }
+
+.play-circle{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(64, 112, 15);
+    border-radius: 50%;
+    display: none;
+    bottom: -5px;
+    cursor: pointer;
+}
+.play-circle:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width:5px 0 5px 10.9px;
+    border-color: transparent transparent transparent #ffffff;
+    top: 0;
+    right: 0; 
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+@keyframes myMove {
+    0% { bottom: -50px; }
+    50% { bottom: -25px; }
+    75% { bottom: -15px; }
+    100% { top: 5px; }
+}
+
 @media only screen and (max-width: 760px) {
     .headeer{
         display: none;
