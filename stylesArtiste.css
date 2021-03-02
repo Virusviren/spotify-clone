@@ -89,7 +89,6 @@ h3{
 
 .morebutton{
     cursor: pointer;
-    font-size: 100px;
-    height: 10px;
-    width: 10px;
+    font-size: 40px;
+    
 }
