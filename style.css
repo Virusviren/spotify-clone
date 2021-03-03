@@ -90,6 +90,10 @@ button.button-login {
   margin: 55vh 0 0 0;
   padding: 0;
 }
+
+
+
+
 .card-body {
   background-color: transparent;
 }
@@ -152,4 +156,5 @@ button.button-login {
   to {
     opacity: 1;
   }
+
 }
