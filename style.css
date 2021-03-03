@@ -91,9 +91,6 @@ button.button-login {
   padding: 0;
 }
 
-
-
-
 .card-body {
   background-color: transparent;
 }
@@ -156,5 +153,4 @@ button.button-login {
   to {
     opacity: 1;
   }
-
 }
