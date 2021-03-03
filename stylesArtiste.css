@@ -15,7 +15,7 @@ ul,a{
     color: white;
     text-decoration: none;
     list-style-type: none;
-    margin-top: 55px;
+    margin-top: 70px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -60,7 +60,7 @@ h3{
     transform: translateX(-50px);
 }
 .buttons{
-    transform: translateY(50px);
+    transform: translateY(60px);
 }
 .playbutton{
     cursor: pointer;
