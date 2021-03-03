@@ -1,0 +1,121 @@
+hr.top {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 0px;
+  height: 50px;
+  background-color: #191919;
+}
+
+.login-signup {
+  background-color: white;
+}
+
+.logo,
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: #191919;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  background-color: white;
+}
+
+hr.down-logo {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #191919;
+}
+
+.container {
+  width: 50%;
+}
+
+.form-for-login > * {
+  background-color: #ffffff;
+  color: #191919;
+}
+
+#facebook-btn {
+  color: #ffffff;
+  background-color: #3f5a9b;
+}
+
+#apple-btn {
+  color: #ffffff;
+  background-color: black;
+}
+.option-btn {
+  width: 50%;
+  height: 40px;
+  text-transform: capitalize;
+}
+.fab {
+  margin-right: 5px;
+  height: 10px;
+}
+
+.or-hr {
+  background-color: #ccc;
+  height: 1px;
+}
+
+.email-password input {
+  width: 50%;
+  border: 1px solid #ccc;
+  border-width: 2px;
+  border-radius: 5px;
+  outline-color: #1eb954;
+  padding: 5px;
+}
+
+.login-btn {
+  background-color: #1eb954;
+  color: #ffffff;
+  width: 150px;
+  border: none;
+  height: 30px;
+}
+.remember {
+  margin-top: 4px;
+
+  font-size: small;
+}
+
+.fgt {
+  color: #1eb954;
+  cursor: pointer;
+}
+
+.account {
+  font-weight: bold;
+}
+
+#create-acc {
+  border: 1px solid black;
+  width: 50%;
+  height: 40px;
+  color: #191919;
+  background-color: #ffffff;
+  transition: 0.2s;
+}
+
+#create-acc:hover {
+  background-color: #1eb954;
+  color: #ffffff;
+}
