@@ -1,0 +1,92 @@
+* {
+  background-color: #191919;
+  color: white;
+}
+
+h6.song-name {
+  font-size: small;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+p.artist-name {
+  font-size: x-small;
+  color: #8a8a8a;
+}
+i.far.fa-heart {
+  padding-right: 5px;
+}
+
+i.fas {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* .player {
+  position: absolute;
+} */
+
+.play-button-media {
+  font-size: 30px;
+  padding-top: 10px;
+}
+.progress-bar {
+  background-color: #8a8a8a !important;
+}
+
+input[type="range"] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */ /* Specific width is required for Firefox. */
+  background: gray; /* Otherwise white in Chrome */
+  border-radius: 10px;
+  height: 5px;
+  margin-top: 10px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #8a8a8a;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: 0px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+}
+
+input[type="range"]:hover {
+  background: #39913c;
+}
+
+.extras a,
+span {
+  color: white;
+  font-size: 12px;
+}
+
+button.button-signup {
+  width: 100px;
+  height: 31px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* border-radius: 0%; */
+
+  background-color: white;
+  color: #1a1a1a;
+}
+
+button.button-login {
+  width: 100px;
+  height: 31px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* border-radius: 0%; */
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.bottom-extras {
+  margin: 55vh 0 0 0;
+  padding: 0;
+}
