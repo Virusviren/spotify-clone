@@ -14,6 +14,8 @@
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
 
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </head>
 <style>
     body {
@@ -56,12 +58,31 @@
         margin: 55vh 0 0 0;
         padding: 0;
     }
+  
 </style>
 
 <body>
     <div class="container">
+        <!-- This div is the dropdown menu for smalll devides -->
+            
+        <div class="dropdown">
+            <button class="text-white btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="row mt-5">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </button>
+            <div class="dropdown-menu text-white bg-dark" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item text-white" type="button">Home</button>
+              <button class="dropdown-item text-white" type="button">Search</button>
+              <button class="dropdown-item text-white" type="button">Your Library</button>
+              <button class="dropdown-item text-white" type="button">Sign Up</button>
+              <button class="dropdown-item text-white" type="button">Login</button>
+            </div>
+        </div>
         <div class="row">
-            <div class=" d-none d-lg-block  col-2 sidebar ">
+            
+             <!-- hidden part -->
+            <div class="d-none d-lg-block col-2 sidebar ">
     
                 <div class="row">
                     <a class="text-white pt-1 mt-2" style="font-size: 24px; font-weight:bold">
@@ -83,6 +104,9 @@
                     <i class="fas fa-book-open"></i>
                     <h6>Your Library</h5>
                 </div>
+
+
+                
         
                 <!-- div for the bottom extras starts here -->
         
@@ -107,28 +131,42 @@
                     </div>
                 </div>
             </div>
+ 
+            
             <!-- This div is for albume page bar -->
-             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="row d-flex justify-content-center">
-                        <a class="text-white pt-1 mt-2" style="font-size: 24px; font-weight:bold">
-                            <img class="img-fluid" src="https://i.pinimg.com/originals/46/02/9a/46029a98a641bd9acd47dc238ac212d7.png" alt=""
-                                style="width: 400px; height:400px">
-                            <p class="text-center">Queen II (Deluxe Edition 2011 Remaster) <br>Queen
-                            </p>
-                                
-                        </a>
-                        <div class="row d-flex align-items-center  mt-2 ">
-                            <button class=" text-center text-white button-signup rounded-pill bg-success" type="button">PLAY</button>
-                        </div>
-                        
-                </div>     
-                <div class="row mt-2 text-white text-center d-flex justify-content-center">
-                    <h6>1974-16 SONGS</h5>
-              </div>     
-                <div class="row mt-2 text-white text-center d-flex justify-content-center">
-                    <i class="far fa-heart"></i>
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>        
+            
+
+     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="row d-flex justify-content-center">
+                            <a class="text-white" style="font-size: 24px; font-weight:bold">
+                                <img src="https://i.pinimg.com/originals/46/02/9a/46029a98a641bd9acd47dc238ac212d7.png" alt=""
+                                    style="width: 400px; height:400px">
+                                <p class="text-center">Queen II (Deluxe Edition 2011 Remaster) <br>Queen
+                                </p>
+                                    
+                            </a>
+                            </div>
+                            <div class="row d-flex align-items-center text-white ">
+                                <button class="text-white button-signup rounded-pill bg-success" type="button">PLAY</button>
+                            </div>
+                            <div class="row mt-2 text-white text-center d-flex justify-content-center">
+                                <h6>1974-16 SONGS</h5>
+                          </div>     
+                            <div class="row mt-2 text-white text-center d-flex justify-content-center">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div> 
+                            
+                
+                
+            
+            
+        </div>
+             
+                
+                
+
+   
         </div>
 
 
