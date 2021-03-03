@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    filter: brightness(40%);
+}
+.col#col{
+    position: absolute;
+    top: 40px;
+    color: white;
+}
+
+ul,a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ul li{
+    display: inline-flex;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(173, 172, 172);
+    text-shadow: 0px 1px 12px rgba(255, 255, 255, 0.49);
+}
+a:focus{
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid green;
+    padding-bottom: 2px;
+    
+}
+#secondSection{
+    position: absolute;
+    background: #1b2530;
+    background: linear-gradient(rgba(27, 37, 48, 0), #1b2530 48px);
+    color: white;
+    left: 0;
+    right: 0;
+    transform: translateY(-50px);
+    z-index: 20;
+}
+.card{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.card-body h5 {
+  font-size: 12px;
+  font-weight: bold;
+}
+h3{
+    cursor: pointer;
+    transform: translateX(-50px);
+}
+.buttons{
+    transform: translateY(60px);
+}
+.playbutton{
+    cursor: pointer;
+    align-self: center;
+    background-color: forestgreen;
+    border: 2px solid forestgreen;
+    border-radius: 74px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.folowbutton{
+    cursor: pointer;
+    align-self: center;
+    padding:10px ;
+    border: 2px solid white;
+    border-radius: 74px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+
+.morebutton{
+    cursor: pointer;
+    font-size: 40px;
+}
