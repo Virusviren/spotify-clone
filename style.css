@@ -90,3 +90,67 @@ button.button-login {
   margin: 55vh 0 0 0;
   padding: 0;
 }
+
+.card-body {
+  background-color: transparent;
+}
+
+.card-body h5 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.genreTitles {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+.genreTitles:hover {
+  color: white;
+}
+.card {
+  box-shadow: -100px -100px 0px 0px rgba(255, 255, 255, 0);
+}
+.card:hover {
+  box-shadow: 0px 0px 35px 11px rgba(255, 255, 255, 0.25);
+}
+.card:hover .play-circle {
+  display: flex;
+
+  animation: opacity 0.3s ease-in-out;
+}
+
+.play-circle {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(64, 112, 15);
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+  transform: translateX(9vh);
+  bottom: 50px;
+}
+.play-circle::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 10.9px;
+  border-color: transparent transparent transparent #ffffff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
