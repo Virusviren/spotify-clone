@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <hr class="top" />
+    <div class="login-signup">
+      <div class="logo">
+        <img src="./assets/spotify-48.ico" alt="" />
+        <h1>Spotify</h1>
+      </div>
+      <hr class="down-logo" />
+    </div>
+
+    <div class="container form-for-login">
+      <div class="col">
+        <div class="row justify-content-center">
+          <p>To continue,log in to Spotify</p>
+        </div>
+        <div class="row justify-content-center">
+          <button class="rounded-pill option-btn" id="facebook-btn">
+            <i class="fab fa-facebook"></i>continue with facebook
+          </button>
+        </div>
+        <div class="row justify-content-center mt-2">
+          <button class="rounded-pill option-btn" id="apple-btn">
+            <i class="fab fa-apple"></i>continue with apple
+          </button>
+        </div>
+        <div class="row mt-3 align-items-center justify-content-center">
+          <div class="col">
+            <hr class="or-hr" />
+          </div>
+          <div class="col-auto">Or</div>
+          <div class="col"><hr class="or-hr" /></div>
+        </div>
+        <div class="row justify-content-center mt-2 email-password">
+          <input type="text" placeholder="Email address or Username" />
+        </div>
+        <div class="row justify-content-center mt-2 email-password">
+          <input type="text" placeholder="Password" />
+        </div>
+        <div class="row mt-2 align-items-start">
+          <div class="col d-flex align-content-center justify-content-center">
+            <div class="text-center"></div>
+            <div class="p-2 bd-highlight remember">
+              <input type="checkbox" /> Remember me
+            </div>
+            <!-- <div class="p-2 bd-highlight remeber">Remeber Me</div> -->
+            <div class="p-2 bd-highlight">
+              <button class="rounded-pill login-btn">Login</button>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <p class="fgt">Forgot your password?</p>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col">
+            <hr class="or-hr" />
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center account">
+          Don't have an account?
+        </div>
+        <div class="row mt-2 align-items-center justify-content-center">
+          <button class="rounded-pill" id="create-acc">
+            Sign up for Spotify
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"
+  ></script>
+</html>
