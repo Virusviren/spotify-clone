@@ -46,8 +46,8 @@ body {
   border-radius: 50%;
   display: none;
   cursor: pointer;
-  right: 15px;
-  bottom: 80px;
+  right: 0.6vw;
+  bottom: 5.5vh;
 }
 .play-circle::after {
   content: "";
