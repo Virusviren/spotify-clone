@@ -1,0 +1,40 @@
+body {
+    background-color: #1a1a1a
+}
+
+.extras a,
+span {
+    color: white;
+    font-size: 12px;
+
+}
+
+button.button-signup {
+    width: 100px;
+    height: 31px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* border-radius: 0%; */
+
+    background-color: white;
+    color: #1a1a1a;
+
+}
+
+button.button-login {
+    width: 100px;
+    height: 31px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* border-radius: 0%; */
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.bottom-extras {
+    margin: 55vh 0 0 0;
+    padding: 0;
+}
