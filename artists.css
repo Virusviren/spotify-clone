@@ -24,32 +24,32 @@ body {
 }
 
 .card {
-  box-shadow: -100px -100px 0px 0px rgba(255, 255, 255, 0);
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  transform: translateY(0);
+  transition: box-shadow 0.2s ease, transform 0.1s ease-out 0.1s;
 }
 .card:hover {
-  box-shadow: 0px 0px 35px 11px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 20px 40px rgba(255, 255, 255, 0.25);
+  transform: translateY(-10px);
 }
 .card:hover .play-circle {
   display: flex;
 
-  animation: myMove 0.7s ease-in-out;
+  animation: opacity 0.25s ease-in-out;
 }
-.card:hover .play-circle {
-  display: flex;
 
-  animation: myMove 0.7s ease-in-out;
-}
 .play-circle {
-  position: relative;
+  position: absolute;
   height: 30px;
   width: 30px;
   background-color: rgb(64, 112, 15);
   border-radius: 50%;
   display: none;
-  bottom: -5px;
   cursor: pointer;
+  transform: translateX(22vh);
+  bottom: 80px;
 }
-.play-circle:after {
+.play-circle::after {
   content: "";
   position: absolute;
   width: 0;
@@ -62,4 +62,13 @@ body {
   bottom: 0;
   left: 0;
   margin: auto;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
