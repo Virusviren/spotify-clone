@@ -185,3 +185,11 @@ div.header-options a {
   border-bottom: 3px solid green;
   padding-bottom: 2px;
 }
+
+h6 a {
+  color: white;
+}
+
+h6 a:hover {
+  color: white;
+}
