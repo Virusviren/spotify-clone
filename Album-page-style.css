@@ -38,3 +38,26 @@ button.button-login {
     margin: 55vh 0 0 0;
     padding: 0;
 }
+.palyer {
+
+    color: white;
+}
+
+@font-face {
+    font-family: 'SpotifyFont';
+    src: url('lineto-circular-black.ttf') format('ttf'), 
+     url('lineto-circular-black.ttf') format('truetype'); 
+     src: url('lineto-circular-pro-bold.ttf') format('ttf'), 
+     url('lineto-circular-pro-bold.ttf') format('truetype'); 
+     src: url('lineto-circular-pro-book.ttf') format('ttf'), 
+     url('lineto-circular-pro-book.ttf') format('truetype');
+     src: url('lineto-circular-pro-bold.ttf') format('ttf'), 
+     url('lineto-circular-pro-bold.ttf') format('truetype'); 
+     
+  }  
+
+  @media (max-width: 995px) {
+    .button{
+        transform: translate(-22%, 25%);
+    }
+  }
