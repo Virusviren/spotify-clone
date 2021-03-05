@@ -119,3 +119,24 @@ hr.down-logo {
   background-color: #1eb954;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 600px) {
+  button#facebook-btn {
+    width: 100%;
+    font-size: small;
+  }
+
+  button#apple-btn {
+    width: 100%;
+    font-size: small;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    font-size: smaller;
+  }
+
+  button#create-acc {
+    width: 100%;
+  }
+}
