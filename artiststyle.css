@@ -90,7 +90,7 @@ ul li a:focus {
 }
 #secondSection {
   background: #1b2530;
-  background: linear-gradient(rgba(27, 37, 48, 0), #0c0f11 48px);
+  background: linear-gradient(rgba(27, 37, 48, 0), #000000 48px);
   color: white;
   left: 0;
   right: 0;
