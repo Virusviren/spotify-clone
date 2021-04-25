@@ -1,4 +1,4 @@
-async function SearchApi(artist) {
+/*async function SearchApi(artist) {
   try {
     const response = await fetch(
       "https://deezerdevs-deezer.p.rapidapi.com/search?q=" + artist,
@@ -27,4 +27,4 @@ window.onload = async function () {
     artists.map(async (artist) => await SearchApi(artist))
   );
   console.log(data);
-};
+};*/
